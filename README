@@ -1,0 +1,28 @@
+#################
+#	RAMSTER		#
+#	1.0 		#
+#   by bison	#
+#	GPL v2		#
+#################
+
+It just fills up your ram.
+I decided to use mebibyte (MiB).
+
+# Parameters:
+# (without a Parameter, the Program does NOTHING!)
+ramster [size in MiB] [[malloc] [forever]]
+
+# Fills up 512MiB and locks it, till the program is closed
+./ramster 512
+
+# To use the c method "malloc" use
+./ramster 512 malloc
+
+# Fills your ram FOREVER! Should "freeze" your system, needs reset after that!
+./ramster forever
+
+# here the simplest code-version that fills your ram isntantly and fast as Hell
+# compile it on oyur own :P
+while(true)
+{ int *lock = new int; }
+
