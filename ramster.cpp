@@ -1,10 +1,10 @@
 /****************
- *	RAMSTER		*
- *	1.0			*
- *	by bison	*
- *	GPL v2		*
+ *  RAMSTER     *
+ *  1.0         *
+ *  by bison    *
+ *  GPL v2      *
  ****************/
- 
+
 #include<iostream>
 #include<string>
 
@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 			}
 			else
 			{
-				//on 32bit, 16bit overhead
+				// on 32bit, 16bit overhead
 				limit = (limitInput * 1048576) / (ENVIRONMENT / 2);
 
 				for (int i = 0; i < limit; ++i)
