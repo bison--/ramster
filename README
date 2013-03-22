@@ -1,8 +1,8 @@
 #################
-#	RAMSTER		#
-#	1.0 		#
-#   by bison	#
-#	GPL v2		#
+#   RAMSTER     #
+#   1.0         #
+#   by bison    #
+#   GPL v2      #
 #################
 
 It just fills up your ram.
@@ -21,8 +21,8 @@ ramster [size in MiB] [[malloc] [forever]]
 # Fills your ram FOREVER! Should "freeze" your system, needs reset after that!
 ./ramster forever
 
-# here the simplest code-version that fills your ram isntantly and fast as Hell
-# compile it on oyur own :P
+# Here the simplest code-version that "fills" your ram isntantly and fast as Hell
+# compile it on your own :P
 while(true)
 { int *lock = new int; }
 
